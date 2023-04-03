@@ -1,8 +1,12 @@
+
+
+
+
 import pygame
 
 a = pygame.image.load('images/flower1.png')
 pygame.draw.circle(a, [255, 0, 0], [50, 330], 40)
-pygame.image.save(a, 'images/bbbb1.png')
+# pygame.image.save(a, 'images/bbbb1.png')
 
 
 r = pygame.Surface([300, 500])
