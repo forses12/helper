@@ -5,8 +5,10 @@
 import pygame
 
 a = pygame.image.load('images/flower1.png')
+a=pygame.transform.scale(a,[100,74])
+
 pygame.draw.circle(a, [255, 0, 0], [50, 330], 40)
-# pygame.image.save(a, 'images/bbbb1.png')
+pygame.image.save(a, 'images/bbbb1.png')
 
 
 r = pygame.Surface([300, 500])
@@ -25,3 +27,5 @@ d.blit(a,(50,100))
 d.blit(a,(150,200))
 
 pygame.image.save(d,'images/ddd3.png')
+
+
